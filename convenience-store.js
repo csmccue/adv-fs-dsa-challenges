@@ -22,9 +22,6 @@ function changeEnough(coins, total) {
   let pennies = coins[3];
 
   sum = (25 * quarters) + (10 * dimes) + (5 * nickels) + pennies;
-  console.log('sum ', sum);
-  console.log('coins ', coins);
-  console.log('total', total);
   if (sum < total) {
     console.log('false');
   }
